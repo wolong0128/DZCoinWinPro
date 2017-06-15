@@ -353,3 +353,652 @@ html{
 	width:15.8rem;
 	margin-left:2.225rem;
 }
+@media screen and (min-width:414px) and (max-width:736px){
+	.box .rull ul{width:2600px !important;}
+	.chip,.fotter{margin-top:-1px;}
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.box .rull ul{width:5000px !important;}
+	.fotter{margin-top:-0.5px;}
+}
+@media only screen and (min-width:1024px){
+	.box .rull ul{width:10000px !important;}
+}
+/*竞猜成功*/
+.make_back{
+   background:#000; 
+   width:18.75rem; 
+   height:100%; 
+   left:0; top:0; 
+   filter:alpha(opacity=70); 
+   -moz-opacity:0.7; opacity:0.7;
+   filter:alpha(opacity=70);
+   position:absolute; 
+   z-index:99990;
+   position:fixed;
+}
+.make_bt{
+	position:fixed;
+	z-index:999999;
+	top:11.075rem;
+	left:15.475rem;
+	width:1.35rem;
+}
+.make .content{
+	width:14rem;
+	background: url(image/make.png) no-repeat;
+    background-size: 100% 100%; 
+    height:13.375rem;
+    position:fixed;
+	z-index:999990;
+	top:8.15rem;
+	left:2.3rem;
+}
+.make .content .top{
+	width:5.8rem;
+	margin:0 auto;
+	text-align: center;
+	margin-top:6rem;
+}
+.make .content h1{
+	color:#ff342f;
+	font-size:1.9rem;
+}
+.make .content p{
+	color:#c6a7ff;
+	font-size:0.7rem;
+}
+.make .content .bottom{
+	width:11rem;
+	margin:0 auto;
+	border:1px dashed #d1cfda;
+	border-radius: 6px;
+	height:2rem;
+	margin-top:0.6rem;
+	overflow: hidden;
+}
+.make .content .bottom li{
+	float:left;
+}
+.make .content .bottom div.l{
+	width:2.1rem;
+	margin-left:0.5rem;
+	margin-top:-0.2rem;
+	position:absolute;
+}
+.make .content .bottom div.l img{
+	width:2.1rem;
+}
+.make .content .bottom ul{
+	margin-left:2.6rem;
+	margin-top:0.1rem;
+}
+.make .content .bottom li div.r{
+	text-align: center;
+	padding:0 0.4rem;
+}
+.make .content .bottom li div.r p{
+	color:#fff;
+	font-size:0.65rem;
+}
+.make .content .bottom li div.r span{
+	color:#7259d5;
+	font-size:0.6rem;
+}
+/*成功赚豆*/
+.guessing_back{
+   background:#000; 
+   width:18.75rem; 
+   height:100%; 
+   left:0; top:0; 
+   filter:alpha(opacity=70); 
+   -moz-opacity:0.7; opacity:0.7;
+   filter:alpha(opacity=70);
+   position:absolute; 
+   z-index:99990;
+   position:fixed;
+}
+.guessing_bt{
+	position:fixed;
+	z-index:999999;
+	top:11.075rem;
+	left:15.475rem;
+	width:1.35rem;
+}
+.guessing .content{
+	width:14rem;
+	background: url(image/make1.png) no-repeat;
+    background-size: 100% 100%; 
+    height:13.375rem;
+    position:fixed;
+	z-index:999990;
+	top:8.15rem;
+	left:2.3rem;
+}
+.guessing .content .top{
+	width:5.8rem;
+	margin:0 auto;
+	text-align: center;
+	margin-top:6rem;
+}
+.guessing .content h1{
+	color:#ff342f;
+	font-size:1.9rem;
+}
+.guessing .content p{
+	color:#c6a7ff;
+	font-size:0.7rem;
+}
+.guessing .content .btn{
+	width:6.25rem;
+	margin:0 auto;
+	margin-top:1rem;
+}
+/*持仓已达上限*/
+.limit_back{
+   background:#000; 
+   width:18.75rem; 
+   height:100%; 
+   left:0; top:0; 
+   filter:alpha(opacity=70); 
+   -moz-opacity:0.7; opacity:0.7;
+   filter:alpha(opacity=70);
+   position:absolute; 
+   z-index:99990;
+   position:fixed;
+}
+.limit_bt{
+	position:fixed;
+	z-index:999999;
+	top:13.075rem;
+	left:15.475rem;
+	width:1.35rem;
+}
+.limit .content{
+	width:14.05rem;
+	background: url(image/limit.png) no-repeat;
+    background-size: 100% 100%; 
+    height:3.9rem;
+    position:fixed;
+	z-index:999990;
+	top:13.475rem;
+	left:2.3rem;
+}
+.limit .content .write{
+	width:12.5rem;
+	margin:0 auto;
+	text-align: center;
+	background:#1b1048;
+	border-radius: 10px;
+	margin-top:2.25rem;
+}
+.limit .content .write p{
+	font-size:0.7rem;
+	color:#fff;
+	line-height: 1.175rem;
+}
+.limit .content .write p span{
+	color:#fff55e;
+	font-size:0.7rem;
+}
+/*当前竞猜*/
+.competition_back{
+   background:#000; 
+   width:18.75rem; 
+   height:100%; 
+   left:0; top:0; 
+   filter:alpha(opacity=70); 
+   -moz-opacity:0.7; opacity:0.7;
+   filter:alpha(opacity=70);
+   position:absolute; 
+   z-index:99990;
+   position:fixed;
+}
+.competition_bt{
+	position:fixed;
+	z-index:999999;
+	top:9.075rem;
+	left:17rem;
+	width:1.35rem;
+}
+.competition .content{
+	width:17.775rem;
+	background: url(image/competition.png) no-repeat;
+    background-size: 100% 100%; 
+    height:17.85rem;
+    position:fixed;
+	z-index:999990;
+	top:7rem;
+	left:0.5rem;
+}
+.competition .content .title{
+	margin:0 auto;
+	text-align: center;
+}
+.competition .content .title p{
+	font-size:0.9rem;
+	color:#fff;
+	margin-top:2.5rem;
+}
+.competition .content .list{
+	width:17.1rem;
+   	margin:0 auto;
+    height: 11.825rem;
+    overflow: auto;
+    background:#1b1048;
+    border-radius: 6px;
+    margin-top:0.825rem;
+    padding-top:0.625rem;
+}
+.competition .content .list .back{
+	width:16rem;
+	margin:0 auto;
+}
+.competition .content .list .back .top div.l{
+	float:left;
+	width:2rem;
+	border:1px solid #ff2525;
+	text-align: center;
+	border-radius: 4px;
+}
+.competition .content .list .back .top div.l p{
+	color:#ff2525;
+	font-size:0.7rem;
+	line-height: 0.9rem;
+}
+.competition .content .list .back .top div.l_t{
+	float:left;
+	width:2rem;
+	border:1px solid #4ba217;
+	text-align: center;
+	border-radius: 4px;
+}
+.competition .content .list .back .top div.l_t p{
+	color:#4ba217;
+	font-size:0.7rem;
+	line-height: 0.9rem;
+}
+.competition .content .list .back .top div.r{
+	float:right;	
+}
+.competition .content .list .back .top div.r p{
+	color:#8e7ade;
+	font-size:0.6rem;
+}
+.competition .content .list .back .top{
+	overflow:hidden;
+}
+.competition .content .list .back .bottom{
+	width:16rem;
+	background:#ffec06;
+	height:2.4rem;
+	border-radius: 4px;
+	margin-top:0.125rem;
+}
+/*.competition .content .list .back .bottom .once{
+	width:16rem;
+}*/
+.competition .content .list .back .once{
+	margin-bottom:0.325rem;
+}
+.competition .content .list .back .bottom li{
+	float:left;
+}
+.competition .content .list .back .bottom ul{
+	overflow: hidden;
+}
+.competition .content .list .back .bottom div.write{
+	padding:0 0.6rem;
+	text-align: center;
+	margin-left:0.3rem;
+	margin-top:0.15rem;
+}
+.competition .content .list .back .bottom div.write p{
+	font-size:0.75rem;
+	color:#1b1048;
+}
+.competition .content .list .back .bottom div.write p.one{
+	color:#57a001;
+}
+.competition .content .list .back .bottom div.write p.two{
+	color:#ff0000;
+}
+.competition .content .list .back .bottom div.write span{
+	font-size:0.6rem;
+	color:#8b5c02;
+}
+.competition .content .list .back .bottom div.line{
+	height:1rem;
+	width:0.05rem;
+	background:#1b1049;
+	margin-top:0.725rem;
+}
+/*买跌弹窗*/
+.down_back{
+   background:#000; 
+   width:18.75rem; 
+   height:100%; 
+   left:0; top:0; 
+   filter:alpha(opacity=70); 
+   -moz-opacity:0.7; opacity:0.7;
+   filter:alpha(opacity=70);
+   position:absolute; 
+   z-index:99990;
+   position:fixed;
+}
+.down_bt{
+	position:fixed;
+	z-index:999999;
+	top:8.3rem;
+	left:17rem;
+	width:1.35rem;
+}
+.down .content{
+	width:17.775rem;
+	background: url(image/buy_down.png) no-repeat;
+    background-size: 100% 100%; 
+    height:16.075rem;
+    position:fixed;
+	z-index:999990;
+	top:8.15rem;
+	left:0.5rem;
+}
+.down .content .gold{
+	margin:0 auto;
+	margin-top:4rem;
+	width:16.9rem;
+}
+.down .content .gold ul{
+	overflow: hidden;
+}
+.down .content .gold li{
+	float:left;
+	margin-right:0.25rem;
+}
+.down .content .gold .title{
+	margin-left:0.4rem;
+}
+.down .content .gold .title p{
+	font-size:0.75rem;
+	color:#fff;
+}
+.down .content .gold .one{
+	overflow: hidden;
+	background:#ffec06;
+	border-radius: 4px;
+	margin-left:0.4rem;
+	height:0.95rem;
+}
+.down .content .gold .one div{
+	float:left;	
+}
+.down .content .gold .one .l p{
+	color:#32236e;
+	font-size:0.7rem;
+	padding:0 0.05rem 0 0.35rem;
+}
+.down .content .gold .one .r img{
+	width:0.55rem;
+	padding:0 0.325rem 0 0.1rem;
+}
+.down .content .gold .two{
+	overflow: hidden;
+	border-radius: 4px;
+	border:1px solid #ffec06;
+	height:0.85rem;
+}
+.down .content .gold .two div{
+	float:left;	
+}
+.down .content .gold .two .l{
+	margin-top:-0.15em;
+}
+.down .content .gold .two .l p{
+	color:#fff35f;
+	font-size:0.7rem;
+	padding:0 0.05rem 0 0.35rem;
+	
+}
+.down .content .gold .two .r img{
+	width:0.55rem;
+	padding:0 0.325rem 0 0.1rem;
+}
+.down .content .double{
+	margin:0 auto;
+	margin-top:0.45rem;
+	width:16.9rem;
+}
+.down .content .double ul{
+	overflow: hidden;
+}
+.down .content .double li{
+	float:left;
+	margin-right:0.25rem;
+}
+.down .content .double .title{
+	margin-left:0.4rem;
+}
+.down .content .double .title p{
+	font-size:0.75rem;
+	color:#fff;
+}
+.down .content .double .one{
+	overflow: hidden;
+	background:#ffec06;
+	border-radius: 4px;
+	margin-left:0.4rem;
+	height:0.95rem;
+}
+.down .content .double .one div{
+	float:left;	
+}
+
+.down .content .double .one .l p{
+	color:#32236e;
+	font-size:0.7rem;
+	padding:0 0.24rem;
+}
+.down .content .double .two{
+	overflow: hidden;
+	border-radius: 4px;
+	border:1px solid #ffec06;
+	height:0.85rem;
+}
+.down .content .double .two div{
+	float:left;	
+}
+.down .content .double .two .l{
+	margin-top:-0.15em;
+}
+.down .content .double .two .l p{
+	color:#fff35f;
+	font-size:0.7rem;
+	padding:0 0.75rem;	
+}
+.down .content .double .thr{
+	overflow: hidden;
+	border-radius: 4px;
+	border:1px solid #ffec06;
+	height:0.85rem;
+}
+.down .content .double .thr div{
+	float:left;	
+}
+.down .content .double .thr .l{
+	margin-top:-0.15em;
+}
+.down .content .double .thr .l p{
+	color:#5a4a9c;
+	font-size:0.7rem;
+	padding:0 0.58rem;	
+}
+.down .content .double .thr .l p span{
+	color:#fff35f;
+	font-size:0.7rem;
+}
+.down .content .guess{
+	overflow: hidden;	
+	margin-top:0.4rem;
+}
+.down .content .guess div{
+	float:left;
+	text-align: center;
+}
+.down .content .guess div.l{
+	margin-left:8.5rem;
+	margin-right:0.4rem;
+}
+.down .content .guess div.l p{
+	font-size:0.7rem;
+	color:#fff;
+}
+.down .content .guess div.l p span{
+	font-size:0.7rem;
+	color:#ffec06;
+}
+.down .content .guess div.r img{
+	width:0.55rem;
+}
+.down .content .point{
+	margin:0 auto;
+	padding-top:0.45rem;
+	width:16.9rem;
+}
+.down .content .point ul{
+	overflow: hidden;
+	padding-top:0.4rem;
+}
+.down .content .point li{
+	float:left;
+	margin-right:0.25rem;
+}
+.down .content .point .title{
+	margin-left:0.4rem;
+}
+.down .content .point .title p{
+	font-size:0.75rem;
+	color:#fff;
+}
+.down .content .point .title img{
+	width:0.6rem;
+	margin-top:-3rem;
+	margin-left:2.8rem;
+}
+.down .content .point .one{
+	overflow: hidden;
+	background:#ffec06;
+	border-radius: 4px;
+	height:0.95rem;
+}
+.down .content .point .one div{
+	float:left;	
+}
+
+.down .content .point .one .l p{
+	color:#32236e;
+	font-size:0.7rem;
+	padding:0 1.08rem;
+}
+.down .content .point .two{
+	overflow: hidden;
+	border-radius: 4px;
+	border:1px solid #ffec06;
+	height:0.85rem;
+}
+.down .content .point .two div{
+	float:left;	
+}
+.down .content .point .two .l{
+	margin-top:-0.15em;
+}
+.down .content .point .two .l p{
+	color:#fff35f;
+	font-size:0.7rem;
+	padding:0 1.08rem;	
+}
+.down .content .line{
+	width:16.1rem;
+	margin:0 auto;
+	border-top:1px solid #32266c;
+}
+.down .content .payment{
+	margin:0 auto;
+	padding-top:0.45rem;
+	width:16.9rem;
+	overflow: hidden;
+}
+.down .content .payment div{
+	float:left;
+}
+.down .content .payment div.one{
+	margin-left:0.4rem;
+}
+.down .content .payment div.one p{
+	font-size:0.75rem;
+	color:#fff;
+}
+.down .content .payment div.two{
+	margin-left:0.4rem;
+}
+.down .content .payment div.two p{
+	color:#ffde00;
+	font-size:0.7rem;
+}
+.down .content .payment div.thr{
+	/*margin-left:0.2rem;*/
+}
+.down .content .payment div.thr p{
+	color:#b07dfb;
+	font-size:0.7rem;
+}
+.down .content .payment div.four{
+	/*margin-left:0.4rem;*/
+}
+.down .content .payment div.four a{
+	color:#ff5400;
+	font-size:0.7rem;	
+	text-decoration:underline;
+}
+.down .content .button{
+		overflow: hidden;
+		width:14.2rem;
+		margin:0 auto;
+		margin-top:0.7rem;
+} 
+.down .content .button div{
+	
+	width:6.25rem;
+}
+.down .content .button div.l{
+	float:left;
+}
+.down .content .button div.r{
+	float:right;
+}
+.down .content .fotter_b{
+	width:14rem;
+	margin:0 auto;
+	margin-top:0.2rem;
+}
+.down .content .fotter_b p{
+	color:#6c5fb0;
+	font-size:0.6rem;
+}
+@media screen and (min-width:320px) and (max-width:568px){
+	.down .content .double .thr .l p {padding:0 0.49rem;}
+	.down .content .fotter_b{width:16.3rem;}
+}
+@media screen and (min-width:360px) and (max-width:640px){
+	.down .content .double .thr .l p {padding:0 0.54rem;}
+	.down .content .fotter_b{width:14.6rem;}
+}
+@media screen and (min-width:375px) and (max-width:667px){
+	.down .content .double .thr .l p {padding:0 0.58rem;}
+	.down .content .fotter_b{width:14rem;}
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+	.down .content li img{margin-top:0.2rem;}
+	.down .content .guess {margin-top:0.5rem;}
+	.down .content .guess img{margin-top:0.2rem;}
+	.down .content .point ul{padding-top:0.6rem;}
+}
