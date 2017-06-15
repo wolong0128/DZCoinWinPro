@@ -7,16 +7,18 @@
 <head>
     <meta charset="UTF-8">
     <title>交易系统</title>
-    <meta http-equiv="Content-Type" content="applicationnd.wap.xhtml+xml;charset= UTF-8" />
+    <meta http-equiv="Content-Type" content="applicationnd.wap.xhtml+xml;charset= UTF-8"/>
     <meta name="viewport" content="width=device-width; initial-scale=1.3; minimum-scale=1.0; maximum-scale=2.0"/>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/index/index.css"/>
+    <script src="scripts/lib/require.js"></script>
+    <script src="scripts/main.js"></script>
     <script>
-        (function(win,doc){
-            win.onload=win.onresize=function(){
-                doc.documentElement.style.fontSize=doc.documentElement.clientWidth*20/375+'px';
+        (function (win, doc) {
+            win.onload = win.onresize = function () {
+                doc.documentElement.style.fontSize = doc.documentElement.clientWidth * 20 / 375 + 'px';
             };
-        })(window,document);
+        })(window, document);
     </script>
 </head>
 <body>
@@ -38,70 +40,9 @@
         </div>
     </div>
     <div class="rull" id="rull">
-        <ul style="width:1120px;">
-            <li class="clearfix">
-                <div class="left">
-                    <p><span>xxxxx</span>成功猜涨西瑞烃，金豆<span>+356</span></p>
-                </div>
-                <div class="left">
-                    <i>
-                        <a href="">
-                            <img src="image/btn.png"/>
-                        </a>
-                    </i>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="left">
-                    <p><span>xxxxx</span>成功猜涨西瑞烃，金豆<span>+300</span></p>
-                </div>
-                <div class="left">
-                    <i>
-                        <a href="">
-                            <img src="image/btn.png"/>
-                        </a>
-                    </i>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="left">
-                    <p><span>xxxxx</span>成功猜涨西瑞烃，金豆<span>+356</span></p>
-                </div>
-                <div class="left">
-                    <i>
-                        <a href="">
-                            <img src="image/btn.png"/>
-                        </a>
-                    </i>
-                </div>
-            </li>
-            <li class="clearfix">
-                <div class="left">
-                    <p><span>xxxxx</span>成功猜涨西瑞烃，金豆<span>+300</span></p>
-                </div>
-                <div class="left">
-                    <i>
-                        <a href="">
-                            <img src="image/btn.png"/>
-                        </a>
-                    </i>
-                </div>
-            </li>
+        <ul id = "toRank" style="width:1120px;">
         </ul>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/Marquee.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            $('#rull').kxbdSuperMarquee({
-                isMarquee:true,
-                isEqual:false,
-                scrollDelay:50,
-                controlBtn:{left:'#goLM',right:'#goRM'},
-                direction:'left'
-            });
-        });
-    </script>
     <!--<img src="image/transaction3.png"/>-->
     <!--切换-->
     <div class="quotation">
@@ -206,7 +147,7 @@
                             <li class="line">
 
                             </li>
-                            <li class="one" >
+                            <li class="one">
                                 <p>09:32:59</p>
                                 <p>09:32:59</p>
                                 <p>09:32:59</p>
@@ -223,7 +164,6 @@
                 </div>
 
             </div>
-
 
             <div class="kk">
                 <div class="k_line shon">
@@ -279,7 +219,7 @@
                             <li class="line">
 
                             </li>
-                            <li class="one" >
+                            <li class="one">
                                 <p>09:32:59</p>
                                 <p>09:32:59</p>
                                 <p>09:32:59</p>
@@ -350,7 +290,7 @@
                             <li class="line">
 
                             </li>
-                            <li class="one" >
+                            <li class="one">
                                 <p>09:32:59</p>
                                 <p>09:32:59</p>
                                 <p>09:32:59</p>
@@ -369,25 +309,7 @@
             </div>
 
         </div>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $(".varieties li").click(function(){
-                    $(".varieties li").eq($(this).index()).addClass("active").siblings().removeClass("active");
-                });
-            });
-            $(document).ready(function(){
-                $(".k_line.show li").click(function(){
-                    $(".k_line.show li").eq($(this).index()).addClass("active").siblings().removeClass("active");
-                    $(".pic div").hide().eq($(this).index()).show();
-                });
-            });
-            $(document).ready(function(){
-                $(".k_line li").click(function(){
-                    $(".k_line li").eq($(this).index()).addClass("active").siblings().removeClass("active");
-                    $(".pic div").hide().eq($(this).index()).show();
-                });
-            });
-        </script>
+
     </div>
     <div class="chip" id="chip">
         <div class="l">
@@ -460,22 +382,6 @@
             </ul>
         </div>
     </div>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            var indexCount = 40;
-            $(".chip .l li").click(function(){
-                indexCount+=10;
-                $(this).find('div').css('zIndex', indexCount)
-            });
-        });
-        $(document).ready(function(){
-            var indexCount = 40;
-            $(".chip .r li").click(function(){
-                indexCount+=10;
-                $(this).find('div').css('zIndex', indexCount)
-            });
-        });
-    </script>
     <div class="fotter">
         <div class="center">
             <div class="l">
@@ -492,4 +398,62 @@
     </div>
 </div>
 </body>
+<script src="scripts/lib/jquery-3.2.0.min.js"></script>
+<script src="scripts/lib/Marquee.js"></script>
+
+<script src="scripts/model/core_data.js"></script>
+<script src="scripts/manage/market_manage.js"></script>
+<script src="scripts/manage/coin_manage.js"></script>
+
+<script src="scripts/components/broadcast.js"></script>
+<script>
+    (function (w, d) {
+
+        $(document).ready(function () {
+            $(".varieties li").click(function () {
+                $(".varieties li").eq($(this).index()).addClass("active").siblings().removeClass("active");
+            });
+            $(".k_line.show li").click(function () {
+                $(".k_line.show li").eq($(this).index()).addClass("active").siblings().removeClass("active");
+                $(".pic div").hide().eq($(this).index()).show();
+            });
+            $(".k_line li").click(function () {
+                $(".k_line li").eq($(this).index()).addClass("active").siblings().removeClass("active");
+                $(".pic div").hide().eq($(this).index()).show();
+            });
+            var indexCount = 40;
+            $(".chip .l li").click(function () {
+                indexCount += 10;
+                $(this).find('div').css('zIndex', indexCount)
+            });
+            var indexCount = 40;
+            $(".chip .r li").click(function () {
+                indexCount += 10;
+                $(this).find('div').css('zIndex', indexCount)
+            });
+        });
+        //模拟数据
+        var host = 'http://localhost:8080/DZCoinWinPro/';
+        var products = JSON.parse('[{"name":"西瑞烃","lNum":"63","lCode":"FGLGDK","eNum":"17000","eCode":"FGLGDK","unit":"瓶","S":0,"N":0,"H":0,"L":0,"O":0,"Y":0,"online":1},{"name":"硅品","lNum":"27","lCode":"000001","eNum":"17000","eCode":"000001","unit":"份","S":0,"N":0,"H":0,"L":0,"O":0,"Y":0,"online":0},{"name":"螺纹钢","lNum":"58","lCode":"SIMFOBCNY3","eNum":"17000","eCode":"SIMFOBCNY3","unit":"份","S":0,"N":0,"H":0,"L":0,"O":0,"Y":0,"online":0},{"name":"螺纹钢","lNum":"58","lCode":"SIMFOBUSD3","eNum":"17000","eCode":"SIMFOBUSD3","unit":"份","S":0,"N":0,"H":0,"L":0,"O":0,"Y":0,"online":0}]');
+
+        Core.getInstance().host = host;
+        Core.tools.setProInfo(products);
+
+        require(['touch','config','Utils22'],function (touch,config,Utils) {
+            w.Utils=Utils;
+            if(config.userMockData){
+                require(['mock-api'],function (mockApi) {
+                    start();
+                });
+            }else {
+                start();
+            }
+        });
+        var start = function () {
+            Broadcast.init();
+        }
+
+    })(window, document)
+</script>
+
 </html>
