@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+img{ border:none; vertical-align:middle;}
+li{ list-style-type:none;}
+*{ padding:0px; margin:0px; font-size:12px;}
+body{padding: 0px;margin: 0px; width:100%; height:100%;background:#fff;font-family:"苹方"}
+.clearfix:after{ content: "."; display: block; height: 0; clear: both; font-size:0; }
+*html .clearfix:after{ height: 1%; }/*IE hack*/
+.clearfix{ *zoom:1;}
+.left{ float:left;}
+.right{ float:right;}
+.absolute{ position:absolute;}
+.relative{ position:relative;}
+a{ text-decoration:none;}
+img{border:none;width: 100%;}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+html{
+	font-size:20px;
+}
+.box{ max-width:18.75rem; min-width:8rem; width:18.75rem; margin:0 auto; padding:0;}
+.box .name{
+	width:18.75rem;
+	background: url(image/transaction1.png) no-repeat;
+    background-size: 100% 100%; 
+    height:2.85rem;
+}
+.box .name img{
+	width:2.125rem;
+	border-radius:50%;
+	margin:0.55rem 0 0 0.925rem;
+}
+.box .name h1{
+	font-size:0.7rem;
+	color:#fff;
+	line-height: 1.05rem;
+	margin-top:0.55rem;
+	margin-left:0.325rem;
+}
+.box .name p{
+	color:#f8d327;
+	font-size:0.65rem;
+	margin-left:1.45rem;
+}
+.box .name p span{
+	color:#fff;
+	font-size:0.65rem;
+}
+.box .name .r{
+	margin-left:7.225rem;	
+}
+.box .name .r img{
+	border-radius: 15px;
+}
+.box .rull{
+	width:18.75rem;
+	background: url(image/transaction2.png) no-repeat;
+    background-size: 100% 100%; 
+    height:3.825rem;
+    overflow: hidden;
+}
+.box .rull ul{
+	overflow: hidden;
+	width:2222px !important;
+	margin-top:0.2rem;
+}
+.box .rull li{
+	width:11.925rem;
+	border:1px solid #9f53ea;
+	border-radius: 12px;
+	background:#371855;
+	float:left;
+	overflow: hidden;
+	margin-right:0.85rem;
+	padding-left:0.925rem;
+}
+.box .rull li p span{
+	color:#ffea00;
+	font-size:0.7rem;
+}
+.box .rull li p{
+	color:#fff;
+	font-size:0.7rem;
+}
+.box .rull li i{
+	width:1.075rem;
+	margin-left:0.3rem;
+}
+.box .rull li i img{
+	width:1.075rem;
+}
+.quotation{
+	width:18.75rem;
+	background: url(image/transaction4.png) no-repeat;
+    background-size: 100% 100%; 
+    height:11.075rem;
+    padding-top:1rem;
+    position:relative;
+}
+.varieties{
+	position:absolute;
+	left:1.775rem;
+	z-index: 50;
+}
+.back{
+	position:absolute;
+	z-index: 40;
+}
+.quotation .varieties ul{
+	overflow: hidden;
+	width:15.3rem;
+	margin:0 auto;	
+}
+.quotation .varieties li{
+	float:left;
+	margin-right:0.15rem;
+	text-align: center;
+}
+.quotation .varieties li.active{
+	width:4.95rem;
+	background: url(image/varieties1.png) no-repeat;
+    background-size: 100% 100%; 
+    height:2.625rem;
+}
+.quotation .varieties li{
+	width:4.95rem;
+	background: url(image/varieties2.png) no-repeat;
+    background-size: 100% 100%; 
+    height:2.625rem;
+}
+.quotation .varieties li p{
+	color:#fff;
+	font-size:0.75rem;
+	margin-top:0.4rem;
+}
+.quotation .varieties li span{
+	color:#ff1b1b;
+}
+.quotation .varieties li i img{
+	width:0.6rem;
+}
+.quotation .k_line{
+	width:17.25rem;
+	margin:0 auto;
+	border:2px solid #470573;
+	height:8.15rem;
+	margin-top:-0.1rem;
+	border-radius: 10px;
+	
+}
+.quotation div.shon{
+	display: none;
+}
+.k_line ul{
+	width:9rem;
+	overflow: hidden;
+	margin-left:8.2rem;
+	margin-top:0.375rem;
+}
+.k_line ul li{
+	float:left;
+	border:1px solid #939bfb;
+	width:2.6rem;
+	border-radius: 10px;
+	margin-left:0.15rem;
+	text-align: center;
+}
+.k_line ul li.active{
+	border:1px solid #9c18bc;
+	width:2.6rem;
+}
+.k_line ul li.active p{
+	font-size:0.65rem;
+	color:#9c18bc;
+}
+.k_line ul li p{
+	font-size:0.65rem;
+	color:#9895f8;
+}
+.back{
+	position:relative;
+}
+.back .kk{
+	margin-top:2.375rem;
+}
+.k_line{
+	position:absolute;
+	left:0.725rem;
+	background:#11054b;
+}
+.pic{
+	width:16.725rem;
+	position:absolute;
+	top:1.35rem;
+	left:1rem;
+	overflow: hidden;
+}
+.pic div{
+	float:left;
+	display: none;
+}
+.pic div.show{
+	display: block;
+}
+.pic div.r{
+	width:16.4rem;
+	background:#540159;
+	margin-top:0.3rem;
+	margin-left:0.3rem;
+	border-radius: 6px;
+	padding-top:0.275rem;
+	padding-bottom:0.5rem;
+}
+.pic div.r ul.top{
+	width:15.8rem;
+	margin:0 auto;
+	overflow: hidden;
+}
+.pic div.r ul.top li{
+	width:3.75rem;
+	text-align: center;
+	background:#6a016e;
+	float:left;
+	margin-right:0.125rem;
+}
+.pic div.r ul.top li p{
+	font-size:0.65rem;
+	line-height: 0.925rem;
+	color:#fff;
+}
+
+.pic div.r ul.down{
+	width:15.8rem;
+	margin:0 auto;
+	overflow: hidden;
+}
+.pic div.r ul.down li{
+	width:3.75rem;
+	text-align: center;
+	float:left;
+	margin-right:0.125rem;
+	padding-top:0.3rem;
+	
+}
+.pic div.r ul.down li.one p{
+	font-size:0.65rem;
+	line-height: 1rem;
+	color:#fff;
+}
+.pic div.r ul.down li.two p{
+	font-size:0.65rem;
+	line-height: 1rem;
+	color:#ffe44c;
+}
+.pic div.r ul.down li.line{
+	height:3.7rem;
+	width:0.025rem;
+	background:#d1b6ff;
+	margin-top:0.525rem;
+	margin-left:0.1rem;
+}
+.chip{
+	width:18.75rem;
+	background: url(image/transaction5.png) no-repeat;
+    background-size: 100% 100%; 
+    height:8.175rem;
+    overflow: hidden;
+    position:relative;
+}
+.chip div{
+	float:left;
+	border-radius:50%;
+}
+.chip div.r{
+	margin-left:8rem;
+}
+.chip div .two{
+	width:2.2rem;
+	background: url(image/chip3.png) no-repeat;
+    background-size: 100% 100%; 
+    height:2.3rem;
+    margin:2.575rem 0 0 2.175rem;
+    position:absolute;
+    line-height:2.3rem;
+}
+.chip div .one{
+	width:3.1rem;
+	background: url(image/chip1.png) no-repeat;
+    background-size: 100% 100%; 
+    height:3.225rem;
+    margin:3.5rem 0 0 3.5rem;    
+    position:absolute;
+    line-height:3.225rem;
+    font-size:0.75rem;
+}
+.chip div .thr{
+	width:1.875rem;
+	background: url(image/chip2.png) no-repeat;
+    background-size: 100% 100%; 
+    height:2rem;
+    margin:2rem 0 0 3.5rem;    
+    position:absolute;
+    line-height:2rem;
+    font-size:0.5rem;
+}
+.chip div .four{
+	width:2.675rem;
+	background: url(image/chip5.png) no-repeat;
+    background-size: 100% 100%; 
+    height:2.775rem;
+    margin:4.8rem 0 0 1.8rem;    
+    position:absolute;
+    line-height:2.775rem;
+}
+.chip div .five{
+	width:1.8rem;
+	background: url(image/chip6.png) no-repeat;
+    background-size: 100% 100%; 
+    height:1.85rem;
+    margin:5.8rem 0 0 5.3rem;    
+    position:absolute;
+    line-height:1.85rem;
+}
+.chip div .six{
+	width:3.225rem;
+	background: url(image/chip4.png) no-repeat;
+    background-size: 100% 100%; 
+    height:3.35rem;
+    margin:2.8rem 0 0 6rem;    
+    position:absolute;
+    line-height:3.35rem;
+}
+.chip div li div{
+	z-index: 30;
+	text-align: center;
+	color:#fff;
+}
+.chip div li.active div{
+	z-index:40;
+}
+.fotter{
+	width:18.75rem;
+	background: url(image/transaction6.png) no-repeat;
+    background-size: 100% 100%; 
+    height:3.225rem;
+    overflow: hidden;
+}
+.fotter .center div{
+	float:left;
+	width:6.25rem;
+	margin-right:1.65rem;
+}
+.fotter .center{	
+	width:15.8rem;
+	margin-left:2.225rem;
+}
